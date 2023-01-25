@@ -43,7 +43,7 @@ variable dbpass {
   default = "admin123"
 }
 
-variable db_name {
+variable dbname {
   default = "accounts"
 }
 
