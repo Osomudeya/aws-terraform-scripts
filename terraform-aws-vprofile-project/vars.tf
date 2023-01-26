@@ -1,13 +1,13 @@
 variable AWS_REGION {
-  default = "us-east-2"
+  default = "us-east-1"
 }
 
 variable AMIS {
   type = map
   default = {
-    us-east-2  = "ami-0bc02c3c09aaee8ea"
-    us-east-1  = "ami-06397100adf427136"
-    ap-south-1 = "ami-009110a2bf8d7dd0a"
+    us-east-1  = "ami-0a6b2839d44d781b2" # ubuntu 20.04 AMI
+    us-east-2  = "ami-0574da009dca65348"
+    us-west-1  = "ami-0574da719dca65125"
   }
 }
 
