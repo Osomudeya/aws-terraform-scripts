@@ -56,15 +56,15 @@ variable "VPC_NAME" {
 }
 
 variable "Zone1" {
-  default = "us-east-1a"
+  default = "us-east-2a"
 }
 
 variable "Zone2" {
-  default = "us-east-1b"
+  default = "us-east-2b"
 }
 
 variable "Zone3" {
-  default = "us-east-1c"
+  default = "us-east-2c"
 }
 
 variable "VpcCIDR" {
