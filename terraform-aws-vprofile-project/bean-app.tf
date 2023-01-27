@@ -19,7 +19,3 @@ assume_role_policy = <<EOF
 }
 EOF
 }
-
-#...
-instance_profile_arn = aws_iam_role.aws-elasticbeanstalk-ec2-role.arn
-}
