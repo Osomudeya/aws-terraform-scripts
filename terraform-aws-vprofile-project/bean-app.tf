@@ -20,9 +20,6 @@ assume_role_policy = <<EOF
 EOF
 }
 
-resource "aws_elastic_beanstalk_environment" "vprofile-bean-prod" {
-name = "vprofile-bean-prod"
-
 #...
 instance_profile_arn = aws_iam_role.aws-elasticbeanstalk-ec2-role.arn
 }
