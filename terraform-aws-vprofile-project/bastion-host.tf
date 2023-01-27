@@ -21,7 +21,7 @@ resource "aws_instance" "vprofile-bastion" {
       "chmod +x /tmp/vprofile-dbdeploy.sh",
       "sudo /tmp/vprofile-dbdeploy.sh"
     ]
-     "on_failure = continue"
+     on_failure = continue
   }
 
   connection {
