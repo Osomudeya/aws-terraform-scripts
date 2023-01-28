@@ -6,8 +6,8 @@ variable "AMIS" {
   type = map(any)
   default = {
     us-east-2 = "ami-00149760ce42c967b" # ubuntu 20.04 AMI
-    us-east-1 = "ami-0778521d914d23bc1"
-    us-west-1 = "ami-03e0029f86a2c74c3"
+    us-east-1 = "ami-0778521d914d2bc1"
+    us-west-1 = "ami-03e0029f86a2c7c3"
   }
 }
 
